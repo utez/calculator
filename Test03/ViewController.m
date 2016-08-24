@@ -81,6 +81,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //calc = [[Calculator alloc] init];
+    //currentOpr = none;
+    //currentValue = 0;
+    
+    self.myLabel.text = @"0";
     // Do any additional setup after loading the view, typically from a nib.
 }
 
